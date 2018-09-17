@@ -118,7 +118,7 @@ def cohensoutherlandclip(x1,y1,x2,y2):
 				y2=y
 				code2=computecode(x2,y2)
 	if accept:
-		lineDDA(ROUND(x1),ROUND(y1),ROUND(x2),ROUND(y2))
+		lineDDA(round(x1),round(y1),round(x2),round(y2))
 	else:
 		print("Line is rejected")
 						
